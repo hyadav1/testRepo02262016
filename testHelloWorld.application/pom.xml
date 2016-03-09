@@ -51,7 +51,8 @@
           <agent></agent>
           <profile>default.substvar</profile>
         </configuration>
-      </plugin>
+    
+  </plugin>
     </plugins>
   </build>
 </project>
