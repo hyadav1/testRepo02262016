@@ -2,8 +2,16 @@
 <repository xmlns:xsi = "http://www.w3.org/2001/XMLSchema-instance" xmlns = "http://www.tibco.com/xmlns/repo/types/2002">
 	<globalVariables>
 		<globalVariable>
+			<name>message1</name>
+			<value>default1</value>
+			<deploymentSettable>false</deploymentSettable>
+			<serviceSettable>false</serviceSettable>
+			<type>String</type>
+			<isOverride>false</isOverride>
+		</globalVariable>
+		<globalVariable>
 			<name>//testHelloWorld//BW.APPNODE.NAME</name>
-			<value>test1</value>
+			<value></value>
 			<deploymentSettable>false</deploymentSettable>
 			<serviceSettable>false</serviceSettable>
 			<type>String</type>
@@ -11,7 +19,7 @@
 		</globalVariable>
 		<globalVariable>
 			<name>//testHelloWorld//BW.DOMAIN.NAME</name>
-			<value>testDomain</value>
+			<value></value>
 			<deploymentSettable>false</deploymentSettable>
 			<serviceSettable>false</serviceSettable>
 			<type>String</type>
@@ -19,7 +27,7 @@
 		</globalVariable>
 		<globalVariable>
 			<name>//testHelloWorld//BW.HOST.NAME</name>
-			<value>ip-0A0000D5</value>
+			<value>localhost</value>
 			<deploymentSettable>false</deploymentSettable>
 			<serviceSettable>false</serviceSettable>
 			<type>String</type>
@@ -67,6 +75,14 @@
 		</globalVariable>
 		<globalVariable>
 			<name>//testHelloWorld//BW.MODULE.NAME</name>
+			<value></value>
+			<deploymentSettable>false</deploymentSettable>
+			<serviceSettable>false</serviceSettable>
+			<type>String</type>
+			<isOverride>false</isOverride>
+		</globalVariable>
+		<globalVariable>
+			<name>//testHelloWorld//newProperty</name>
 			<value></value>
 			<deploymentSettable>false</deploymentSettable>
 			<serviceSettable>false</serviceSettable>

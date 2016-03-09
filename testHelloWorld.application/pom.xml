@@ -41,7 +41,7 @@
           <bw.version>6.2</bw.version>
           <deployToAdmin>true</deployToAdmin>
           <redeployear>true</redeployear>
-          <domain>testDomain</domain>
+          <domain>testdomain</domain>
           <domainDesc></domainDesc>
           <appspace>testAppspace</appspace>
           <appspaceDesc></appspaceDesc>
