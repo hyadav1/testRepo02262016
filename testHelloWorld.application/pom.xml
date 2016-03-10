@@ -43,7 +43,8 @@
           <redeployear>true</redeployear>
           <domain>testdomain</domain>
           <domainDesc></domainDesc>
-          <appspace>testAppspace</appspace>
+          
+<appspace>testAppspace</appspace>
           <appspaceDesc></appspaceDesc>
           <appnode>test1</appnode>
           <appnodeDesc></appnodeDesc>
