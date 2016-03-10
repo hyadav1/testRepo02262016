@@ -47,7 +47,8 @@
           <domainDesc></domainDesc>
           
 <appspace>testAppspace</appspace>
-          <appspaceDesc></appspaceDesc>
+ 
+         <appspaceDesc></appspaceDesc>
           <appnode>test1</appnode>
           <appnodeDesc></appnodeDesc>
           <httpport>9065</httpport>
