@@ -49,7 +49,8 @@
           <appnode>test1</appnode>
           <appnodeDesc></appnodeDesc>
           <httpport>9065</httpport>
-          <agent></agent>
+        
+  <agent></agent>
           <profile>default.substvar</profile>
         </configuration>
     
