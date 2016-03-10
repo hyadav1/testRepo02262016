@@ -30,7 +30,8 @@
           </execution>
           <execution>
             <id>bw-installer</id>
-            <phase>install</phase>
+       
+     <phase>install</phase>
             <goals>
               <goal>bw-installer</goal>
             </goals>
