@@ -32,7 +32,8 @@
             <id>bw-installer</id>
        
      <phase>install</phase>
-            <goals>
+    
+        <goals>
               <goal>bw-installer</goal>
             </goals>
           </execution>
