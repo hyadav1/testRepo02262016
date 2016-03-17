@@ -51,11 +51,11 @@
  
 
          <appspaceDesc></appspaceDesc>
-          <appnode>test1</appnode>
+          <appnode>test2</appnode>
           <appnodeDesc></appnodeDesc>
-          <httpport>5656</httpport>
+          <httpport>8065</httpport>
         
-  <agent></agent>
+  		<agent></agent>
           <profile>default.substvar</profile>
         </configuration>
     
