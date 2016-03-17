@@ -4,7 +4,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>com.tibco.bw</groupId>
   <artifactId>testHelloWorld.application</artifactId>
-  <version>1.3.0-SNAPSHOT</version>
+  <version>1.0.0-SNAPSHOT</version>
   <packaging>pom</packaging>
   <modules>
     <module>../testHelloWorld</module>
@@ -32,7 +32,7 @@
             <id>bw-installer</id>
             <phase>install</phase>
             <goals>
-   		 	<goal>bw-installer</goal>
+              <goal>bw-installer</goal>
             </goals>
           </execution>
         </executions>
@@ -41,22 +41,17 @@
           <bw.version>6.2</bw.version>
           <deployToAdmin>true</deployToAdmin>
           <redeployear>true</redeployear>
-
           <domain>testDomain</domain>
-          <domainDesc></domainDesc>
-
+          <domainDesc>testd</domainDesc>
           <appspace>testAppspace</appspace>
-          <appspaceDesc></appspaceDesc>
-
+          <appspaceDesc>testa</appspaceDesc>
           <appnode>test2</appnode>
-          <appnodeDesc></appnodeDesc>
+          <appnodeDesc>testtest2</appnodeDesc>
           <httpport>8065</httpport>
-        
-  		<agent></agent>
+          <agent></agent>
           <profile>default.substvar</profile>
         </configuration>
-    
-   </plugin>
-  </plugins>
- </build>
+      </plugin>
+    </plugins>
+  </build>
 </project>

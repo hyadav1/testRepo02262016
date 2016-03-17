@@ -156,7 +156,7 @@
     <tibex:ProcessInfo createdBy="Administrator"
         createdOn="Fri Feb 26 17:30:39 EST 2016" description=""
         modifiedBy="Administrator"
-        modifiedOn="Wed Mar 09 12:00:27 EST 2016" modifiers="public"
+        modifiedOn="Thu Mar 17 12:45:09 EDT 2016" modifiers="public"
         productVersion="6.2.2 V18 2015-07-14" scalable="true"
         singleton="true" stateless="false" type="IT"/>
     <tibex:ProcessTemplateConfigurations/>
@@ -452,7 +452,7 @@
                                 <properties name="config" xsi:type="activityconfig:EMFProperty">
                                     <type href="http://ns.tibco.com/bw/palette/generalactivities#//Timer"/>
                                     <value endPolicy="END_TIME"
-                                    endTime="2016-03-12T17:30:53.000-0500"
+                                    endTime="2016-03-21T17:30:53.000-0400"
                                     intervalUnit="Minute"
                                     startTime="2016-02-26T17:30:53.105-0500"
                                     timeInterval="1" xsi:type="generalactivities:Timer"/>
