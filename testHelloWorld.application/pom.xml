@@ -30,12 +30,9 @@
           </execution>
           <execution>
             <id>bw-installer</id>
-       
-     <phase>install</phase>
-    
-        <goals>
-         
-     <goal>bw-installer</goal>
+            <phase>install</phase>
+            <goals>
+   		 	<goal>bw-installer</goal>
             </goals>
           </execution>
         </executions>
@@ -44,13 +41,13 @@
           <bw.version>6.2</bw.version>
           <deployToAdmin>true</deployToAdmin>
           <redeployear>true</redeployear>
+
           <domain>testDomain</domain>
           <domainDesc></domainDesc>
-          
-<appspace>testAppspace</appspace>
- 
 
-         <appspaceDesc></appspaceDesc>
+          <appspace>testAppspace</appspace>
+          <appspaceDesc></appspaceDesc>
+
           <appnode>test2</appnode>
           <appnodeDesc></appnodeDesc>
           <httpport>8065</httpport>
@@ -59,9 +56,7 @@
           <profile>default.substvar</profile>
         </configuration>
     
-  </plugin>
-  
+   </plugin>
   </plugins>
-  </build>
-
+ </build>
 </project>
