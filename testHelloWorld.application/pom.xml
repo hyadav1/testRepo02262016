@@ -44,7 +44,7 @@
           <bw.version>6.2</bw.version>
           <deployToAdmin>true</deployToAdmin>
           <redeployear>true</redeployear>
-          <domain>testdomain</domain>
+          <domain>testDomain</domain>
           <domainDesc></domainDesc>
           
 <appspace>testAppspace</appspace>
@@ -53,7 +53,7 @@
          <appspaceDesc></appspaceDesc>
           <appnode>test1</appnode>
           <appnodeDesc></appnodeDesc>
-          <httpport>9065</httpport>
+          <httpport>5656</httpport>
         
   <agent></agent>
           <profile>default.substvar</profile>
