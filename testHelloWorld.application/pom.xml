@@ -4,7 +4,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>com.tibco.bw</groupId>
   <artifactId>testHelloWorld.application</artifactId>
-  <version>1.2.0</version>
+  <version>1.1.0</version>
   <packaging>pom</packaging>
   <modules>
     <module>../testHelloWorld</module>
@@ -42,11 +42,11 @@
           <deployToAdmin>true</deployToAdmin>
           <redeployear>true</redeployear>
           <domain>testDomain</domain>
-          <domainDesc>testd</domainDesc>
+          <domainDesc></domainDesc>
           <appspace>testAppspace</appspace>
-          <appspaceDesc>testa</appspaceDesc>
+          <appspaceDesc></appspaceDesc>
           <appnode>test2</appnode>
-          <appnodeDesc>testtest2</appnodeDesc>
+          <appnodeDesc></appnodeDesc>
           <httpport>8065</httpport>
           <agent></agent>
           <profile>default.substvar</profile>
