@@ -4,7 +4,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>com.tibco.bw</groupId>
   <artifactId>testHelloWorld</artifactId>
-  <version>1.4.0</version>
+  <version>1.5.0</version>
   <packaging>eclipse-plugin</packaging>
   <properties>
     <shared.p2.repo>${tibco.home}/bw/${bw.version}/maven/sharedmodulerepo</shared.p2.repo>
