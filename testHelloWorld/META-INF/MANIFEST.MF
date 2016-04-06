@@ -2,7 +2,7 @@ Manifest-Version: 1.0
 Bundle-ManifestVersion: 2
 Bundle-Name: TestHelloWorld Module
 Bundle-SymbolicName: testHelloWorld
-Bundle-Version: 1.6.0
+Bundle-Version: 1.7.0
 Bundle-Vendor: TIBCO Software Inc.
 TIBCO-BW-Version: 6.2.2 V18 2015-07-14
 TIBCO-BW-ConfigProfile: META-INF/default.substvar
