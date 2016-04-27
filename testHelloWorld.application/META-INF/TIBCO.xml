@@ -84,7 +84,7 @@
     <packaging:module>
       <packaging:symbolicName>testHelloWorld</packaging:symbolicName>
       <packaging:technologyType>adapter-appmodule,bw-appmodule,osgi-bundle</packaging:technologyType>
-      <packaging:technologyVersion>2.0.0</packaging:technologyVersion>
+      <packaging:technologyVersion>1.0.0.qualifier</packaging:technologyVersion>
     </packaging:module>
   </packaging:modules>
 </packaging:packageUnit>
