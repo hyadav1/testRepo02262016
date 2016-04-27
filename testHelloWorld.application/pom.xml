@@ -4,7 +4,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>com.tibco.bw</groupId>
   <artifactId>testHelloWorld.application</artifactId>
-  <version>2.0.0-SNAPSHOT</version>
+  <version>1.1.0</version>
   <packaging>pom</packaging>
   <modules>
     <module>../testHelloWorld</module>
@@ -45,9 +45,9 @@
           <domainDesc></domainDesc>
           <appspace>testAppspace</appspace>
           <appspaceDesc></appspaceDesc>
-          <appnode>test1</appnode>
+          <appnode>test2</appnode>
           <appnodeDesc></appnodeDesc>
-          <httpport>9065</httpport>
+          <httpport>8065</httpport>
           <agent></agent>
           <profile>default.substvar</profile>
         </configuration>
