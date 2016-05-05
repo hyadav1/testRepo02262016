@@ -156,7 +156,7 @@
     <tibex:ProcessInfo createdBy="Administrator"
         createdOn="Fri Feb 26 17:30:39 EST 2016" description=""
         modifiedBy="Administrator"
-        modifiedOn="Wed Apr 27 13:48:34 EDT 2016" modifiers="public"
+        modifiedOn="Thu May 05 16:10:06 EDT 2016" modifiers="public"
         productVersion="6.2.2 V18 2015-07-14" scalable="true"
         singleton="true" stateless="false" type="IT"/>
     <tibex:ProcessTemplateConfigurations/>
@@ -494,8 +494,7 @@
                 </tibex:activityExtension>
             </bpws:extensionActivity>
             <bpws:extensionActivity>
-                <tibex:extActivity
-                    expression="'hellow world1234q76324634326'"
+                <tibex:extActivity expression="'hellow worldSushil'"
                     expressionLanguage="urn:oasis:names:tc:wsbpel:2.0:sublang:xpath2.0"
                     inputVariable="SetSharedVariable-input"
                     name="SetSharedVariable"
@@ -510,7 +509,7 @@
                     </bpws:sources>
                     <tibex:inputBindings>
                         <tibex:inputBinding
-                            expression="'hellow world1234q76324634326'" expressionLanguage="urn:oasis:names:tc:wsbpel:2.0:sublang:xpath2.0"/>
+                            expression="'hellow worldSushil'" expressionLanguage="urn:oasis:names:tc:wsbpel:2.0:sublang:xpath2.0"/>
                     </tibex:inputBindings>
                     <tibex:SetSharedVariable variableName="message1" xmlns:tibex="http://www.tibco.com/bpel/2007/extensions"/>
                 </tibex:extActivity>
