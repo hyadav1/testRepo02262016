@@ -156,7 +156,7 @@
     <tibex:ProcessInfo createdBy="Administrator"
         createdOn="Fri Feb 26 17:30:39 EST 2016" description=""
         modifiedBy="Administrator"
-        modifiedOn="Thu May 05 16:10:06 EDT 2016" modifiers="public"
+        modifiedOn="Wed Jun 22 13:53:40 EDT 2016" modifiers="public"
         productVersion="6.2.2 V18 2015-07-14" scalable="true"
         singleton="true" stateless="false" type="IT"/>
     <tibex:ProcessTemplateConfigurations/>
@@ -322,7 +322,7 @@
                                     gradientEndColor="50431"
                                     gradientStartColor="16777215" xsi:type="bwnotation:BackgroundStyle"/>
                                     <element href="//0/@process/@activity/@activity/@activities.3"/>
-                                    <layoutConstraint x="266"
+                                    <layoutConstraint x="249"
                                     xsi:type="notation:Bounds" y="167"/>
                                     </children>
                                     <styles xsi:type="notation:DrawerStyle"/>
@@ -464,7 +464,7 @@
             </bpws:extensionActivity>
             <bpws:extensionActivity>
                 <tibex:activityExtension
-                    expression="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xa;&lt;xsl:stylesheet xmlns:xsl=&quot;http://www.w3.org/1999/XSL/Transform&quot; xmlns:tns=&quot;http://www.tibco.com/pe/WriteToLogActivitySchema&quot; version=&quot;2.0&quot;>&lt;xsl:param name=&quot;SetSharedVariable&quot;/>&lt;xsl:param name=&quot;Variable&quot;/>&lt;xsl:template name=&quot;Log-input&quot; match=&quot;/&quot;>&lt;tns:ActivityInput>&lt;msgCode>&lt;xsl:value-of select=&quot;'1234'&quot;/>&lt;/msgCode>&lt;message>&lt;xsl:value-of select=&quot;concat('hello world from hari','shared variable : ',$SetSharedVariable,', process variable',$Variable)&quot;/>&lt;/message>&lt;/tns:ActivityInput>&lt;/xsl:template>&lt;/xsl:stylesheet>"
+                    expression="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xa;&lt;xsl:stylesheet xmlns:xsl=&quot;http://www.w3.org/1999/XSL/Transform&quot; xmlns:tns=&quot;http://www.tibco.com/pe/WriteToLogActivitySchema&quot; version=&quot;2.0&quot;>&lt;xsl:param name=&quot;SetSharedVariable&quot;/>&lt;xsl:param name=&quot;Variable&quot;/>&lt;xsl:template name=&quot;Log-input&quot; match=&quot;/&quot;>&lt;tns:ActivityInput>&lt;msgCode>&lt;xsl:value-of select=&quot;'1234'&quot;/>&lt;/msgCode>&lt;message>&lt;xsl:value-of select=&quot;concat('hello world from CognizantTIBCO Practice','shared variable : ',$SetSharedVariable,', process variable',$Variable)&quot;/>&lt;/message>&lt;/tns:ActivityInput>&lt;/xsl:template>&lt;/xsl:stylesheet>"
                     expressionLanguage="urn:oasis:names:tc:wsbpel:2.0:sublang:xslt1.0"
                     inputVariable="Log-input" name="Log"
                     tibex:xpdlId="580e88c7-2932-4786-b3a0-d88339982874" xmlns:tibex="http://www.tibco.com/bpel/2007/extensions">
@@ -473,7 +473,7 @@
                     </bpws:targets>
                     <tibex:inputBindings>
                         <tibex:inputBinding
-                            expression="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xa;&lt;xsl:stylesheet xmlns:xsl=&quot;http://www.w3.org/1999/XSL/Transform&quot; xmlns:tns=&quot;http://www.tibco.com/pe/WriteToLogActivitySchema&quot; version=&quot;2.0&quot;>&lt;xsl:param name=&quot;SetSharedVariable&quot;/>&lt;xsl:param name=&quot;Variable&quot;/>&lt;xsl:template name=&quot;Log-input&quot; match=&quot;/&quot;>&lt;tns:ActivityInput>&lt;msgCode>&lt;xsl:value-of select=&quot;'1234'&quot;/>&lt;/msgCode>&lt;message>&lt;xsl:value-of select=&quot;concat('hello world from hari','shared variable : ',$SetSharedVariable,', process variable',$Variable)&quot;/>&lt;/message>&lt;/tns:ActivityInput>&lt;/xsl:template>&lt;/xsl:stylesheet>" expressionLanguage="urn:oasis:names:tc:wsbpel:2.0:sublang:xslt1.0"/>
+                            expression="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xa;&lt;xsl:stylesheet xmlns:xsl=&quot;http://www.w3.org/1999/XSL/Transform&quot; xmlns:tns=&quot;http://www.tibco.com/pe/WriteToLogActivitySchema&quot; version=&quot;2.0&quot;>&lt;xsl:param name=&quot;SetSharedVariable&quot;/>&lt;xsl:param name=&quot;Variable&quot;/>&lt;xsl:template name=&quot;Log-input&quot; match=&quot;/&quot;>&lt;tns:ActivityInput>&lt;msgCode>&lt;xsl:value-of select=&quot;'1234'&quot;/>&lt;/msgCode>&lt;message>&lt;xsl:value-of select=&quot;concat('hello world from CognizantTIBCO Practice','shared variable : ',$SetSharedVariable,', process variable',$Variable)&quot;/>&lt;/message>&lt;/tns:ActivityInput>&lt;/xsl:template>&lt;/xsl:stylesheet>" expressionLanguage="urn:oasis:names:tc:wsbpel:2.0:sublang:xslt1.0"/>
                     </tibex:inputBindings>
                     <tibex:config>
                         <bwext:BWActivity
@@ -494,7 +494,8 @@
                 </tibex:activityExtension>
             </bpws:extensionActivity>
             <bpws:extensionActivity>
-                <tibex:extActivity expression="'hellow worldSushil'"
+                <tibex:extActivity
+                    expression="'hellow worldSushilkumar'"
                     expressionLanguage="urn:oasis:names:tc:wsbpel:2.0:sublang:xpath2.0"
                     inputVariable="SetSharedVariable-input"
                     name="SetSharedVariable"
@@ -509,14 +510,14 @@
                     </bpws:sources>
                     <tibex:inputBindings>
                         <tibex:inputBinding
-                            expression="'hellow worldSushil'" expressionLanguage="urn:oasis:names:tc:wsbpel:2.0:sublang:xpath2.0"/>
+                            expression="'hellow worldSushilkumar'" expressionLanguage="urn:oasis:names:tc:wsbpel:2.0:sublang:xpath2.0"/>
                     </tibex:inputBindings>
                     <tibex:SetSharedVariable variableName="message1" xmlns:tibex="http://www.tibco.com/bpel/2007/extensions"/>
                 </tibex:extActivity>
             </bpws:extensionActivity>
             <bpws:extensionActivity>
                 <tibex:activityExtension
-                    expression="'process variable set'"
+                    expression="'process variable sethello'"
                     expressionLanguage="urn:oasis:names:tc:wsbpel:2.0:sublang:xpath2.0"
                     inputVariable="Variable" name="Assign"
                     outputVariable="Variable"
@@ -529,7 +530,7 @@
                     </bpws:sources>
                     <tibex:inputBindings>
                         <tibex:inputBinding
-                            expression="'process variable set'" expressionLanguage="urn:oasis:names:tc:wsbpel:2.0:sublang:xpath2.0"/>
+                            expression="'process variable sethello'" expressionLanguage="urn:oasis:names:tc:wsbpel:2.0:sublang:xpath2.0"/>
                     </tibex:inputBindings>
                     <tibex:config>
                         <bwext:BWActivity
